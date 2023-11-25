@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final Item INKED_FEATHER = registerItem("inked_feather",
             new Item(new FabricItemSettings()));
+    public static final Item GOLD_RING = registerItem("gold_ring",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
@@ -21,6 +23,7 @@ public class ModItems {
 
     public static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(INKED_FEATHER);
+        entries.add(GOLD_RING);
     }
 
     public static void registerModItems() {
