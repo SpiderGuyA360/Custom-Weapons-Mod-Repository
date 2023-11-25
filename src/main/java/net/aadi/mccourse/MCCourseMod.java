@@ -1,5 +1,6 @@
 package net.aadi.mccourse;
 
+import net.aadi.mccourse.item.ModItemGroup;
 import net.aadi.mccourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class MCCourseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 
 		ModItems.registerModItems();
 	}
