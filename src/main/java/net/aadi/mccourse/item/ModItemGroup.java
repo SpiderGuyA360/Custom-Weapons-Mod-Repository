@@ -16,6 +16,8 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.GOLD_RING)).entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLD_RING);
                         entries.add(ModItems.INKED_FEATHER);
+                        entries.add(ModItems.RAVEN_SCYTHE);
+                        entries.add(ModItems.NETHERWHITE_INGOT);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##~",
+    " /~",
+    "/  "
+  ],
+  "key":{
+    "#": {
+      "item": "mccourse:netherwhite_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "~": {
+      "item": "mccourse:inked_feather"
+    }
+  },
+  "result": {
+    "item": "mccourse:raven_scythe"
+  }
+}
